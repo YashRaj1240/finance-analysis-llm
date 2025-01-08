@@ -1,51 +1,46 @@
-# Bank Transaction Categorization Using Llama2
+# Bank Transaction Data Categorization with Llama2
 
-This project demonstrates the use of local Large Language Models (LLMs), specifically the **Llama2** model, to automatically categorize bank transaction data. The project explores the potential of LLMs in data labeling and analysis tasks, providing an efficient and scalable solution for transaction categorization.
+**Description:**
 
----
+This project investigates the use of a locally deployed Llama2 model for automated categorization of personal bank transaction data. The goal is to streamline data analysis and gain deeper insights into spending habits by leveraging the power of large language models.
 
-## Table of Contents
-- [Overview](#overview)  
-- [Features](#features)  
-- [Requirements](#requirements)  
-- [Setup and Installation](#setup-and-installation)  
-- [Usage](#usage)  
-- [Methodology](#methodology)  
-- [Results](#results)  
-- [Future Work](#future-work)  
-- [License](#license)  
+**Key Features:**
 
----
+* Automated Categorization
+* Improved Data Analysis
+* Enhanced Data Management
+* Local Deployment
 
-## Overview
-Categorizing financial transactions manually can be a tedious and error-prone task. By leveraging the **Llama2** model, this project automates transaction categorization, allowing for faster and more accurate analysis of financial data. This application showcases how local LLMs can be adapted for real-world tasks like data labeling.
+**Technical Details:**
 
----
+* **Model:** Llama2 
+* **Deployment:** [Specify your deployment method, e.g., Docker, virtual environment]
+* **Data Preprocessing:** [Describe any data preprocessing steps, e.g., cleaning, formatting]
+* **Evaluation:** [Explain how you evaluated the model's performance, e.g., accuracy metrics, confusion matrices] 
 
-## Features
-- **Automated Categorization:** Automatically assigns categories to bank transactions based on the transaction description.
-- **Local Model Deployment:** Uses the Llama2 model locally, ensuring data privacy and security.
-- **Customizable Categories:** Categories can be adapted based on specific user requirements.
-- **Scalable Solution:** Handles large datasets with minimal computational overhead.
+**Usage:**
 
----
+1. **Data Preparation:** 
+    * Prepare your bank transaction data in a suitable format (e.g., CSV, JSON).
+    * Ensure data privacy and security by anonymizing any sensitive information.
+2. **Model Deployment:** 
+    * Deploy the Llama2 model locally according to the instructions in the deployment section.
+3. **Run Categorization:** 
+    * Feed your transaction data to the deployed model.
+    * The model will automatically categorize each transaction.
+4. **Analyze Results:** 
+    * Analyze the categorized data to gain insights into your spending habits.
+    * Use the results to improve your budgeting and financial decision-making.
 
-## Requirements
-- Python 3.8 or above  
-- Required libraries:
-  - `transformers`
-  - `torch`
-  - `pandas`
-  - `numpy`
-  - `scikit-learn` (optional, for evaluation)  
+**Future Work:**
 
-Ensure your system has sufficient resources to run Llama2 locally.
+* Explore alternative LLMs for improved performance.
+* Implement more sophisticated data preprocessing techniques.
+* Develop a user-friendly interface for interacting with the model.
+* Integrate the model into a personal finance management tool.
 
----
+**Contributing:**
 
-## Setup and Installation
+Contributions are welcome! Please feel free to submit issues or pull requests.
 
-1. **Clone the Repository:**  
-   ```bash
-   git clone https://github.com/your-username/llama2-transaction-categorization.git
-   cd llama2-transaction-categorization
+
